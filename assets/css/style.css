@@ -1,0 +1,40 @@
+body {
+  background: url('../images/shieldbackground.jpg');
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: Texts, Helvetica, Arial, sans-serif;
+}
+
+.jumbotron {
+  background-color: #B22222;
+  border: 5px solid #0000CD;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.center-div {
+     margin: 0 auto;
+     width: 80%;
+}
+
+#marvel {
+  font-family: Comics, Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: yellow;
+}
+
+
+  @font-face {
+  font-family: Texts ;
+  src: url("../images/text.ttf");
+  }
+
+  @font-face {
+  font-family: Comics ;
+  src: url("../images/comic.ttf");
+  }
