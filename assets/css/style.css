@@ -4,14 +4,14 @@ body {
   background-position: cover;
   background-repeat: no-repeat;
   font-size: 20px;
-  font-family: Texts, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
 }
 
 .jumbotron {
   background-color: #B22222;
   border: 5px solid #0000CD;
   text-align: center;
-  padding: 10px;
+  padding: 1px;
   margin-top: 20px;
   width: 100%;
 }
@@ -21,13 +21,14 @@ body {
      width: 80%;
 }
 
-#marvel {
-  font-family: Comics, Helvetica, Arial, sans-serif;
-  font-size: 80px;
+#jumbo {
+  font-family: Head, Helvetica, Arial, sans-serif;
+  font-size: 85px;
   font-weight: bold;
   color: yellow;
+  letter-spacing: 10px;
+  /* text-shadow: 3px 3px black; */
 }
-
 
   @font-face {
   font-family: Texts ;
@@ -37,4 +38,41 @@ body {
   @font-face {
   font-family: Comics ;
   src: url("../images/comic.ttf");
+  }
+
+  @font-face {
+  font-family: Head ;
+  src: url("../images/header.ttf");
+  }
+
+  .marvel {
+    background: white;
+    font-family: Texts, Helvetica, Arial, sans-serif;
+    margin: 5px;
+    width: auto;
+    height: 40px;
+    font-size: 26px;
+    border: 1.5px solid black;
+    letter-spacing: 1px;
+  }
+
+  .form {
+    font-family: Comics, Helvetica, Arial, sans-serif;
+    background: white;
+    width: 330px;
+    font-size: 20px;
+    border: 5px solid #006400;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+  }
+
+  #add-marvel {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  #character-input {
+    border: 2px solid #9400D3;
   }
