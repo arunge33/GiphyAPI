@@ -27,7 +27,7 @@ body {
   font-weight: bold;
   color: yellow;
   letter-spacing: 10px;
-  /* text-shadow: 3px 3px black; */
+  text-shadow: 5px 5px black;
 }
 
   @font-face {
@@ -45,8 +45,9 @@ body {
   src: url("../images/header.ttf");
   }
 
-  .marvel {
+  #comic {
     background: white;
+    color: black;
     font-family: Texts, Helvetica, Arial, sans-serif;
     margin: 5px;
     width: auto;
@@ -56,7 +57,7 @@ body {
     letter-spacing: 1px;
   }
 
-  .form {
+#marvelSearch {
     font-family: Comics, Helvetica, Arial, sans-serif;
     background: white;
     width: 330px;
@@ -65,14 +66,15 @@ body {
     text-align: center;
     float: right;
     margin-right: 10px;
+    padding-top: 5px;
   }
 
-  #add-marvel {
+  #addMarvel {
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  #character-input {
+  #characterInput {
     border: 2px solid #9400D3;
   }
